@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!--
+	,(&@@&&%&&@@@&(,                                                     ./#&&
+	(@%*..,,**********,,.,(&&,                                           ,&%*..,,,,
+   ,,***********************,.,&&                        (%@*         *@/.,********
+   ****/((((((/*****************.,@#                 .&*,*,..,&@*&  *&,,***********
+				  ,#@@#/**********,,@#          .(&#,............/%(#*****/&&#*.   
+						 /@@%///#&@&%@@&%%#(*...................   .&(             
+								   &#..............................   /@,          
+								,@*...................................  /@         
+							   &(....................................... .@,       
+							 .@*.....................,#&@@@@&%/,...........&*      
+							.@,.......,/#%#..........&@@&#(///#&@@@&,......*&      
+							(#....(@@@@@@&&,................................@  %@* 
+							&*..,@*..........,###&&&*.(#...............(@/,@.%#,@,
+							&/...........#&(%.........*................*@*&#@&*,,@,
+							*@............. ......................*/.*@#**/*,,,,%( 
+							 ,@,,............................,&@/@@&(**,,,,,,,,&,  
+					   /%.  *&**/%@%*,,,&&*...............,%&****,,,,,,,,,,,,&* *@/
+						%/*/(#%*,,,,,/&&@*,*%&@@@@@&(@*&,%%**,,,,,,,,,,,,,,*/*,,/@ 
+						 (%****,,,,,,,,,*@*,,,,,/@&*@*,,,/,,,,,,,,,,,,,,,,,,,,,&(  
+						   &%**,,,,,,,,,,,,,,,,,*@*,,,,,,,,,,,,,,,,,,,,,,,,,,%@,   
+							 #@/,,,,,,,,,,,,,,,,,,%%,,,,,,,,,,,,,,,,,,,,,,/&/*/&(  
+								*@&/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(#@#**%% 
+							  .@@@(,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,(&@#,,,,,*%&
+							   /%*(&@%/,,,,,,,,,,,,,,,,,,,,,,,/%@@&#/***/@*,,,,,,*#
+							   @*,,**%#,,**/(#%&@&#*,,,,,(@#/*,,,,,,,,,,,@(,,,,,,,*
+							  #%,,**/@*,,,,,,,,,,,,,*#@@/,,,,,,,,,,,,,,,,#@,,,,,,,,
+							
+							       Thanks Bonible!
+-->
+	
+	<SoundDef>
+		<defName>Shot_ImpactRifle</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/AutoImpact</clipPath>
+					</li>
+				</grains>
+				<volumeRange>25</volumeRange>      
+				<pitchRange>1~1.1</pitchRange>
+			  </li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Shot_ImpactCannon</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/ImpactCannon</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30</volumeRange>      
+				<pitchRange>1~1.1</pitchRange>
+			  </li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Shot_ImpactSniper</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/ImpactSniper</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30</volumeRange>      
+				<pitchRange>1~1.1</pitchRange>
+			  </li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Shot_ImpactSmall</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/ImpactSmall</clipPath>
+					</li>
+				</grains>
+				<volumeRange>25</volumeRange>      
+				<pitchRange>1~1.1</pitchRange>
+			  </li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Shot_ImpactSlinger</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/ImpactSlinger</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30</volumeRange>      
+				<pitchRange>1~1.1</pitchRange>
+			  </li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Shot_ImpactSlugger</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/ImpactSlugger</clipPath>
+					</li>
+				</grains>
+				<volumeRange>25</volumeRange>      
+				<pitchRange>1~1.1</pitchRange>
+			  </li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>MeleeHit_Chainsword</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/MeleeHit_Chainsword</clipPath>
+					</li>
+				</grains>
+				<volumeRange>22~29</volumeRange>      
+				<pitchRange>0.9152174~1.169566</pitchRange>
+			  </li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>Explosion_BombImpact</defName>  
+		<context>MapOnly</context> 
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		  <li>
+			<grains>
+			  <li Class="AudioGrain_Folder">
+				<clipFolderPath>Weapon/Artillery/Mortar_Explode_Dry</clipFolderPath>
+			  </li>
+			</grains>      
+			<volumeRange>20~35</volumeRange>      
+			<pitchRange>0.8516304~1.254348</pitchRange>
+		  </li>
+		</subSounds>
+	  </SoundDef>
+
+</Defs>

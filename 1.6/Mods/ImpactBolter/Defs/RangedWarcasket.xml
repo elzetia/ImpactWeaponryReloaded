@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="VFEP_BaseWarcasketGun">
+    <defName>DV_WarcasketGun_ImpactBolter</defName>
+    <label>warcasket impact bolter</label>
+    <description>An upscaled version of the impact SMG designed for use by a warcasket. It fires a burst of impact-tip shells, similar to the cannon, but with more precision thanks to the sight. The technology tech itself was originally of imperial make, but pirate scrappers have reverse engineered and adjusted scavenged impact guns to create this imposing weapon.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/ImpactBolter</texPath>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>90000</WorkToMake>
+      <Mass>59</Mass>
+      <AccuracyTouch>0.58</AccuracyTouch>
+      <AccuracyShort>0.59</AccuracyShort>
+      <AccuracyMedium>0.62</AccuracyMedium>
+      <AccuracyLong>0.67</AccuracyLong>
+      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>WarcasketBasic</li>
+      <li>WarcasketVeteran</li>
+    </weaponTags>
+    <costList>
+      <Steel>205</Steel>
+      <Plasteel>70</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DV_ImpactBulletBolter</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>30</range>
+        <forcedMissRadius>0.5</forcedMissRadius>
+        <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>front</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="VEF.Weapons.HeavyWeapon">
+        <isHeavy>true</isHeavy>
+        <supportedTraits>
+          <li>VFEP_WarcasketTrait</li>
+        </supportedTraits>
+        <disableOptionLabelKey>VFEP.RequiresWarcasket</disableOptionLabelKey>
+      </li>
+      <li Class="VEF.Graphics.FloorGraphicExtension">
+        <graphicData>
+          <graphicClass>Graphic_Single</graphicClass>
+          <texPath>Things/Item/WeaponsBoxed/ImpactBolter_OnFloor</texPath>
+          <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+          <drawSize>1</drawSize>
+        </graphicData>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>DV_ImpactBulletBolter</defName>
+    <label>impact bolter shell</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <graphicData>
+      <texPath>Things/Projectiles/Bullet_ImpactShell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>1.8</explosionRadius>
+      <damageAmountBase>19</damageAmountBase>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

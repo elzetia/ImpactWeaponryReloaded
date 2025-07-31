@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AbilityDef>
+    <defName>DV_AdrenalineInjection</defName>
+    <label>adrenaline injection</label>
+    <description>Stab various microneedles across the body to release a cocktail of battle stimulants into the bloodstream, increasing speed and lowering stagger duration for a short time.</description>
+    <iconPath>UI/Abilities/AdrenalineInjection</iconPath>
+    <cooldownTicksRange>15000</cooldownTicksRange> <!-- 6 hours -->
+    <hostile>false</hostile>
+    <groupAbility>true</groupAbility>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <aiCanUse>true</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <targetRequired>false</targetRequired>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <statBases>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+      <soundCast>Ingest_Inject</soundCast>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>DV_CrusaderAdrenaline</hediffDef>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+
+</Defs>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="DV_ApparelArmorCrusaderBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>DV_CrusaderArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>   
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/CrusaderArmor/CrusaderArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <generateCommonality>0.2</generateCommonality>
+    <statBases>
+      <WorkToMake>78000</WorkToMake>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Mass>21</Mass>
+      <Flammability>0.2</Flammability>
+      <ArmorRating_Sharp>1.4</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.85</ArmorRating_Heat>
+      <Insulation_Cold>80</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
+      <EquipDelay>24</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.9</MoveSpeed>
+      <StaggerDurationFactor>0.6</StaggerDurationFactor>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.69</VacuumResistance>
+    </equippedStatOffsets>
+    <tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <costList>
+      <ComponentSpacer>9</ComponentSpacer>
+      <Plasteel>200</Plasteel>
+      <Uranium>75</Uranium>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CrusaderArmor/CrusaderArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <ThingDef Name="DV_ApparelArmorHelmetCrusaderBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>DV_CrusaderArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>  
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/CrusaderHelmet/CrusaderHelmet</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>    
+      <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <tradeTags>
+      <li>HiTechArmor</li>
+      <li>Armor</li>
+    </tradeTags>
+    <generateCommonality>0.2</generateCommonality>
+    <statBases>
+      <WorkToMake>28000</WorkToMake>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+      <ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.85</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <VacuumResistance MayRequire="Ludeon.Rimworld.Odyssey">0.32</VacuumResistance>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>75</Plasteel>
+      <Uranium>25</Uranium>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CrusaderHelmet/CrusaderHelmet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>      
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10.1</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  
+  <!-- Cataphract armor -->
+  
+  <ThingDef ParentName="DV_ApparelArmorCrusaderBase">
+    <defName>DV_Apparel_ArmorCrusader</defName>
+    <label>crusader armor</label>
+    <description>A super-heavy suit of bulky powered armor, built for the most protection at the cost of agility. Layers on layers of plasteel-coated uranium plating offer unmatched protection against both ranged and melee attacks. Heat-scattering shields strategically welded onto weakpoints protect against beam weapons and radiation. To help with the immense weight of the suit, ancient-pattern neuro-memetic assistors and hydraulic components aid in holding up the armor.\n\nThis armor was one of the first patterns of power armor engineered by man, and remains one of the most protective models to use due to the reliable armoring and analog controls.</description>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+    <recipeMaker>
+      <displayPriority>125</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="DV_ApparelArmorHelmetCrusaderBase">
+    <defName>DV_Apparel_ArmorHelmetCrusader</defName>
+    <label>crusader helmet</label>
+    <description>An excessively armored powered helmet, with a large bulletproof pane of plasteel-glass for full vision. Various plasteel-coated uranium plates protect against concussions or bullets, while a built in life-support system allows the wearer to survive in environments without oxygen.  Built in spring-suspensions around the neck aid in wearing the helmet and lowering the impact of projectiles.</description>
+    <recipeMaker>
+      <displayPriority>120</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

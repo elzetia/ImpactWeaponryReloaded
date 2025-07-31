@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ResearchProjectDef>
+ <defName>DV_ImpactShot</defName>
+ <label>impact-tip munitions</label>
+ <description>Build heavy weapons engineered to utilize impact-tip ammunition that explode on collision. Note that these also require advanced components.</description>
+ <baseCost>3400</baseCost>
+ <techLevel>Spacer</techLevel>
+ <prerequisites>
+   <li>Fabrication</li>
+ </prerequisites>
+ <hiddenPrerequisites>
+   <li>PrecisionRifling</li>
+ </hiddenPrerequisites>
+ <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+ <requiredResearchFacilities>
+   <li>MultiAnalyzer</li>
+ </requiredResearchFacilities>
+  <researchViewX>17.00</researchViewX>
+  <researchViewY>3.00</researchViewY>
+ <generalRules>
+  <rulesStrings>
+    <li>subject->impact munitions</li>
+  
+    <li>subject_story->discovered an ancient still functional impact rifle, wielding it into battle</li>
+    <li>subject_story->destroyed a truck of enemy reinforcement with their impact stubber</li>
+    <li>subject_story->utilized illegally-acquired imperial technology to build and sell impact weapons</li>
+  
+    <li>subject_gerund->constructing impact munitions</li>
+  
+    <li>subject_gerund->utilising impact munitions</li>
+  </rulesStrings>
+ </generalRules>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+  <defName>DV_CrusaderArmor</defName>
+  <label>crusader armor</label>
+  <description>Build crusader armor, a super-heavy ancient-pattern powered armor suit used across the known galaxy for it's reliability and durability. Note that these also require advanced components.</description>
+  <baseCost>8000</baseCost>
+  <techLevel>Spacer</techLevel>
+  <prerequisites>
+    <li>PoweredArmor</li>
+  </prerequisites>
+  <hiddenPrerequisites>
+    <li>ComplexClothing</li>
+  </hiddenPrerequisites>
+  <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  <requiredResearchFacilities>
+    <li>MultiAnalyzer</li>
+  </requiredResearchFacilities>
+  <researchViewX>19.00</researchViewX>
+  <researchViewY>0.20</researchViewY>
+  <generalRules>
+    <rulesStrings>
+      <li>subject->crusader armor</li>
+
+      <li>subject_story->blocked a volley of projectiles, saving an entire family in the midst of their escape</li>
+      <li>subject_story->drop podded directly through an enemy vessel like a cannonball, taking over it</li>
+      <li>subject_story->exterminated a village of cannibals and left without a scratch</li>
+
+      <li>subject_gerund->constructing super-marine armor</li>
+      <li>subject_gerund->constructing crusader armor</li>
+      <li>subject_gerund->constructing uranium-plated powered armor</li>
+
+    </rulesStrings>
+  </generalRules>
+</ResearchProjectDef>
+
+</Defs>
