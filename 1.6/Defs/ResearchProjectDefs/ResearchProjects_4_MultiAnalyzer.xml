@@ -4,7 +4,7 @@
 <ResearchProjectDef>
  <defName>DV_ImpactShot</defName>
  <label>impact-tip munitions</label>
- <description>Build heavy weapons engineered to utilize impact-tip ammunition that explode on collision. Note that these also require advanced components.</description>
+ <description>Build heavy weapons that utilize impact-tip cartridges, which  explode on collision. Note that these also require advanced components.</description>
  <baseCost>3400</baseCost>
  <techLevel>Spacer</techLevel>
  <prerequisites>
@@ -24,8 +24,8 @@
     <li>subject->impact munitions</li>
   
     <li>subject_story->discovered an ancient still functional impact rifle, wielding it into battle</li>
-    <li>subject_story->destroyed a truck of enemy reinforcement with their impact stubber</li>
-    <li>subject_story->utilized illegally-acquired imperial technology to build and sell impact weapons</li>
+    <li>subject_story->destroyed a truck of enemy reinforcements with their impact stubber</li>
+    <li>subject_story->utilized illegally-acquired technology to build and sell impact weapons</li>
   
     <li>subject_gerund->constructing impact munitions</li>
   
@@ -37,7 +37,7 @@
 <ResearchProjectDef>
   <defName>DV_CrusaderArmor</defName>
   <label>crusader armor</label>
-  <description>Build crusader armor, a super-heavy ancient-pattern powered armor suit used across the known galaxy for it's reliability and durability. Note that these also require advanced components.</description>
+  <description>Build crusader armor, a super-heavy ancient-pattern powered armor suit used across the known galaxy for its reliability and durability. Note that these also require advanced components.</description>
   <baseCost>8000</baseCost>
   <techLevel>Spacer</techLevel>
   <prerequisites>
