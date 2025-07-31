@@ -38,7 +38,7 @@
   <defName>DV_CrusaderArmor</defName>
   <label>crusader armor</label>
   <description>Build crusader armor, a super-heavy ancient-pattern powered armor suit used across the known galaxy for its reliability and durability. Note that these also require advanced components.</description>
-  <baseCost>8000</baseCost>
+  <baseCost>7000</baseCost>
   <techLevel>Spacer</techLevel>
   <prerequisites>
     <li>PoweredArmor</li>
