@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: crusader armor -->
+  <DV_CrusaderArmor.label>armure de croisé</DV_CrusaderArmor.label>
+  <!-- EN: Build crusader armor, a super-heavy ancient-pattern powered armor suit used across the known galaxy for its reliability and durability. Note that these also require advanced components. -->
+  <DV_CrusaderArmor.description>Construire une armure de croisé, une armure motorisée super-lourde d'après un modèle ancien utilisée dans toute la galaxie connue pour sa fiabilité et sa durabilité. Notez que ces armures nécessitent également des composants avancés.</DV_CrusaderArmor.description>
+  <!-- EN:
+    <li>subject->crusader armor</li>
+    <li>subject_story->blocked a volley of projectiles, saving an entire family in the midst of their escape</li>
+    <li>subject_story->drop podded directly through an enemy vessel like a cannonball, taking over it</li>
+    <li>subject_story->exterminated a village of cannibals and left without a scratch</li>
+    <li>subject_gerund->constructing super-marine armor</li>
+    <li>subject_gerund->constructing crusader armor</li>
+    <li>subject_gerund->constructing uranium-plated powered armor</li>
+  -->
+  <DV_CrusaderArmor.generalRules.rulesStrings>
+    <li>subject->armure de croisé</li>
+    <li>subject_story->a bloqué une volée de projectiles, sauvant une famille entière au milieu de leur fuite</li>
+    <li>subject_story->s'est posé en module de largage directement à travers un vaisseau ennemi comme un boulet de canon, s'en emparant</li>
+    <li>subject_story->a exterminé un village de cannibales et est reparti sans une égratignure</li>
+    <li>subject_gerund->construction d'armure de super-marine</li>
+    <li>subject_gerund->construction d'armure de croisé</li>
+    <li>subject_gerund->construction d'armure motorisée plaquée d'uranium</li>
+  </DV_CrusaderArmor.generalRules.rulesStrings>
+  
+  <!-- EN: impact-tip munitions -->
+  <DV_ImpactShot.label>munitions explosives</DV_ImpactShot.label>
+  <!-- EN: Build heavy weapons that utilize impact-tip cartridges, which  explode on collision. Note that these also require advanced components. -->
+  <DV_ImpactShot.description>Construire des armes lourdes qui utilisent des cartouches à munitions explosives, qui détonent lors de l'impact. Notez que ces armes nécessitent également des composants avancés.</DV_ImpactShot.description>
+  <!-- EN:
+    <li>subject->impact munitions</li>
+    <li>subject_story->discovered an ancient still functional impact rifle, wielding it into battle</li>
+    <li>subject_story->destroyed a truck of enemy reinforcements with their impact stubber</li>
+    <li>subject_story->utilized illegally-acquired technology to build and sell impact weapons</li>
+    <li>subject_gerund->constructing impact munitions</li>
+    <li>subject_gerund->utilising impact munitions</li>
+  -->
+  <DV_ImpactShot.generalRules.rulesStrings>
+    <li>subject->munitions explosives</li>
+    <li>subject_story->a découvert un ancien fusil à impact encore fonctionnel, le maniant au combat</li>
+    <li>subject_story->a détruit un camion de renforts ennemis avec son pistolet-mitrailleur à impact</li>
+    <li>subject_story->a utilisé une technologie acquise illégalement pour construire et vendre des armes à impact</li>
+    <li>subject_gerund->construction de munitions explosives</li>
+    <li>subject_gerund->utilisation de munitions explosives</li>
+  </DV_ImpactShot.generalRules.rulesStrings>
+  
+</LanguageData>

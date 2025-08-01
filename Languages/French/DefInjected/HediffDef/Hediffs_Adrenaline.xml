@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: injected adrenaline -->
+  <DV_CrusaderAdrenaline.label>adrénaline injectée</DV_CrusaderAdrenaline.label>
+  <!-- EN: Synthetic adrenaline injected into the bloodstream through microneedles inside of crusader armor, it numbs pain by stimulating the release of endorphins and enhances breathing and heart. -->
+  <DV_CrusaderAdrenaline.description>Adrénaline synthétique injectée dans le sang par des micro-aiguilles intégrées dans l'armure de croisé, elle engourdit la douleur en stimulant la libération d'endorphines et améliore la respiration et le cœur.</DV_CrusaderAdrenaline.description>
+  
+</LanguageData>

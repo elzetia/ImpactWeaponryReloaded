@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bomb -->
+  <DV_BombImpact.label>bombe</DV_BombImpact.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <DV_BombImpact.deathMessage>{0} est mort(e) dans une explosion.</DV_BombImpact.deathMessage>
+  
+  <!-- EN: solar blast -->
+  <DV_SolarDamage.label>explosion solaire</DV_SolarDamage.label>
+  <!-- EN: {0} has been killed by solar energy. -->
+  <DV_SolarDamage.deathMessage>{0} a été tué(e) par l'énergie solaire.</DV_SolarDamage.deathMessage>
+  
+  <!-- EN: shred -->
+  <Shred.label>déchiquetage</Shred.label>
+  <!-- EN: {0} has been shredded to death. -->
+  <Shred.deathMessage>{0} a été déchiqueté(e) à mort.</Shred.deathMessage>
+  
+</LanguageData>

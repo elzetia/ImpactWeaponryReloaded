@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: adrenaline injection -->
+  <DV_AdrenalineInjection.label>injection d'adrénaline</DV_AdrenalineInjection.label>
+  <!-- EN: Stab various microneedles across the body to release a cocktail of battle stimulants into the bloodstream, increasing speed and lowering stagger duration for a short time. -->
+  <DV_AdrenalineInjection.description>Injecte diverses micro-aiguilles dans le corps pour libérer un cocktail de stimulants de combat dans le sang, augmentant la vitesse et réduisant la durée d'étourdissement pendant une courte période.</DV_AdrenalineInjection.description>
+  
+</LanguageData>

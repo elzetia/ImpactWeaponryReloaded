@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: persona chainsword -->
+  <DV_ChainswordBladelink.label>épée-tronçonneuse consciente</DV_ChainswordBladelink.label>
+  <!-- EN: A massive sword fitted with an engine and tempered cutting teeth in place of a regular blade. One single swing from this brutal weapon can shred through armor, flesh and bone with ease, though managing to handle something so heavy in the first place is no simple task. Such a powerful blade is generally wielded by only the most honorable and distinguished stellic wardens.\n\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
+  <DV_ChainswordBladelink.description>Une épée massive équipée d'un moteur et de dents tranchantes trempées à la place d'une lame ordinaire. Un seul coup de cette arme brutale peut déchiqueter l'armure, la chair et l'os avec facilité, bien que réussir à manier quelque chose d'aussi lourd en premier lieu ne soit pas une tâche simple. Une lame si puissante n'est généralement maniée que par les gardiens stellaires les plus honorables et distingués.\n\nCette arme possède une conscience intégrée qui ne peut se lier qu'à une seule personne. Le porteur et l'arme intelligente peuvent synchroniser leurs réflexes et attaquer avec une vitesse, une précision et une créativité effrayantes. Une fois liée à un porteur, la conscience de l'arme refusera d'être maniée par quiconque d'autre.</DV_ChainswordBladelink.description>
+  <!-- EN: handle -->
+  <DV_ChainswordBladelink.tools.handle.label>poignée</DV_ChainswordBladelink.tools.handle.label>
+  <!-- EN: teeth -->
+  <DV_ChainswordBladelink.tools.teeth.label>dents</DV_ChainswordBladelink.tools.teeth.label>
+  <!-- EN: chain -->
+  <DV_ChainswordBladelink.tools.chain.label>chaîne</DV_ChainswordBladelink.tools.chain.label>
+  
+</LanguageData>

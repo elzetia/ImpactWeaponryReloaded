@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: crusader armor -->
+  <DV_Apparel_ArmorCrusader.label>armure de croisé</DV_Apparel_ArmorCrusader.label>
+  <!-- EN: A super-heavy suit of bulky powered armor, built for the most protection at the cost of agility. Layers on layers of plasteel-coated uranium plating offer unmatched protection against both ranged and melee attacks. Heat-scattering shields strategically welded onto weakpoints protect against beam weapons and radiation. To help with the immense weight of the suit, ancient-pattern neuro-memetic assistors and hydraulic components aid in holding up the armor.\n\nThis armor was one of the first patterns of power armor engineered by man, and remains one of the most protective models to use due to the reliable armoring and analog controls. -->
+  <DV_Apparel_ArmorCrusader.description>Une armure motorisée super-lourde et volumineuse, conçue pour offrir la protection maximale au détriment de l'agilité. Des couches et des couches de plaques d'uranium revêtues de plastacier offrent une protection inégalée contre les attaques à distance et au corps à corps. Des boucliers de dispersion thermique stratégiquement soudés sur les points faibles protègent contre les armes à faisceau et les radiations. Pour aider à supporter le poids immense de la combinaison, des assistants neuro-mimétiques de modèle ancien et des composants hydrauliques aident à maintenir l'armure.\n\nCette armure fut l'un des premiers modèles d'armure motorisée conçus par l'homme, et reste l'un des modèles les plus protecteurs à utiliser grâce au blindage fiable et aux commandes analogiques.</DV_Apparel_ArmorCrusader.description>
+  
+  <!-- EN: crusader helmet -->
+  <DV_Apparel_ArmorHelmetCrusader.label>casque de croisé</DV_Apparel_ArmorHelmetCrusader.label>
+  <!-- EN: An excessively armored powered helmet, with a large bulletproof pane of plasteel-glass for full vision. Various plasteel-coated uranium plates protect against concussions or bullets, while a built in life-support system allows the wearer to survive in environments without oxygen.  Built in spring-suspensions around the neck aid in wearing the helmet and lowering the impact of projectiles. -->
+  <DV_Apparel_ArmorHelmetCrusader.description>Un casque motorisé excessivement blindé, avec un large panneau pare-balles en verre-plastacier pour une vision complète. Diverses plaques d'uranium revêtues de plastacier protègent contre les commotions ou les balles, tandis qu'un système de support de vie intégré permet au porteur de survivre dans des environnements sans oxygène. Des suspensions à ressort intégrées autour du cou aident à porter le casque et à réduire l'impact des projectiles.</DV_Apparel_ArmorHelmetCrusader.description>
+  
+</LanguageData>
