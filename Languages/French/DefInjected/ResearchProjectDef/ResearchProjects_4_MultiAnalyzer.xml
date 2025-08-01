@@ -38,9 +38,9 @@
   -->
   <DV_ImpactShot.generalRules.rulesStrings>
     <li>subject->munitions explosives</li>
-    <li>subject_story->a découvert un ancien fusil à impact encore fonctionnel, le maniant au combat</li>
-    <li>subject_story->a détruit un camion de renforts ennemis avec son pistolet-mitrailleur à impact</li>
-    <li>subject_story->a utilisé une technologie acquise illégalement pour construire et vendre des armes à impact</li>
+    <li>subject_story->a découvert un ancien fusil de démolition encore fonctionnel, le maniant au combat</li>
+    <li>subject_story->a détruit un camion de renforts ennemis avec son pistolet-mitrailleur de démolition</li>
+    <li>subject_story->a utilisé une technologie acquise illégalement pour construire et vendre des armes de démolition</li>
     <li>subject_gerund->construction de munitions explosives</li>
     <li>subject_gerund->utilisation de munitions explosives</li>
   </DV_ImpactShot.generalRules.rulesStrings>

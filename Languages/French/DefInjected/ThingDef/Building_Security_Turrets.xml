@@ -2,14 +2,14 @@
 <LanguageData>
   
   <!-- EN: impact catapult -->
-  <DV_Gun_ImpactTurret.label>catapulte à impact</DV_Gun_ImpactTurret.label>
+  <DV_Gun_ImpactTurret.label>catapulte de démolition</DV_Gun_ImpactTurret.label>
   <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
   <DV_Gun_ImpactTurret.description>Un canon de gros calibre à chargement automatique conçu pour être fixé sur une tourelle.</DV_Gun_ImpactTurret.description>
   <!-- EN: impact catapult -->
-  <DV_Gun_ImpactTurret.verbs.Verb_Shoot.label>catapulte à impact</DV_Gun_ImpactTurret.verbs.Verb_Shoot.label>
+  <DV_Gun_ImpactTurret.verbs.Verb_Shoot.label>catapulte de démolition</DV_Gun_ImpactTurret.verbs.Verb_Shoot.label>
   
   <!-- EN: impact catapult -->
-  <DV_Turret_Impact.label>catapulte à impact</DV_Turret_Impact.label>
+  <DV_Turret_Impact.label>catapulte de démolition</DV_Turret_Impact.label>
   <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
   <DV_Turret_Impact.description>Une tourelle automatique lourde. Ses obus gros calibre infligent de lourds dégâts sur des portées importantes, mais son canon doit être remis à neuf après utilisation. Elle ne peut pas tirer sur des cibles rapprochées, et peut exploser lorsqu'elle est endommagée.</DV_Turret_Impact.description>
   <!-- EN: Barrel durability -->
